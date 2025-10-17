@@ -1,0 +1,85 @@
+/* ====== Layout & common ====== */
+body{
+  padding: 20px;
+  color: #665544;                 /* màu chữ mặc định cho đoạn văn */
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+
+/* màu xanh cho tiêu đề & link */
+h1, h2, h3, a{
+  color: #0088dd;
+}
+
+/* ====== H1 ====== */
+h1{
+  font-size: 250%;
+  font-family: serif;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.15);
+  padding-bottom: 8px;
+  margin: 0 0 6px;
+}
+
+/* ====== H2 ====== */
+h2{
+  font-size: 90%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding-bottom: 8px;
+  margin: 0 0 14px;
+}
+
+/* ====== H3 ====== */
+h3{
+  font-size: 250%;
+  margin: 18px 0 10px;
+}
+
+/* ====== Intro paragraph special lines ====== */
+p.intro:first-letter{
+  font-size: 200%;
+}
+p.intro:first-line{
+  font-weight: bold;
+}
+
+/* ====== Links ====== */
+a:hover{
+  text-decoration: none;
+}
+
+/* ====== Photo caption line ====== */
+#bald-eagle{
+  vertical-align: middle;
+}
+
+/* ====== Byline ====== */
+.credits{
+  text-align: right;
+  font-style: italic;
+  margin: 18px 0 28px;
+}
+
+/* ====== Form ====== */
+input{
+  padding: 6px 10px;
+  border: 1px solid #665544;
+}
+
+input.text:focus{
+  color: #665544;
+  outline: none;
+}
+
+input.submit{
+  background: #aa8f73;      /* gần giống tone trong ảnh; giữ chữ trắng */
+  color: #ffffff;
+  cursor: pointer;
+  padding: 6px 14px;
+  margin-left: 6px;
+}
+
+input.submit:hover{
+  background-color: #665544;
+}
